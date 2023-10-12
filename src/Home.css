@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem 0 0 0;
+    .image-container {
+        position: relative;
+        .alex {
+            position: relative;
+            height: 60%;
+            z-index: 99;
+            border-radius: 1rem;
+        }
+        .blob {
+            position: absolute;
+            left: -200px;
+            top: -300px;
+            color: var(--seal-brown);
+            
+        }
+    }
+}
